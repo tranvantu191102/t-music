@@ -30,7 +30,7 @@ const SlideHome = () => {
             pagination={true}
             mousewheel={true}
             keyboard={true}
-        // autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 3000 }}
         >
             {
                 items && items.length > 0 &&
